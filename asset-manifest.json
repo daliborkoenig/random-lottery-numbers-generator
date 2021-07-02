@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/random-lottery-numbers-generator/static/css/main.f16f52c8.chunk.css",
+    "main.js": "/random-lottery-numbers-generator/static/js/main.f83d05c0.chunk.js",
+    "main.js.map": "/random-lottery-numbers-generator/static/js/main.f83d05c0.chunk.js.map",
+    "runtime-main.js": "/random-lottery-numbers-generator/static/js/runtime-main.7acb1bc0.js",
+    "runtime-main.js.map": "/random-lottery-numbers-generator/static/js/runtime-main.7acb1bc0.js.map",
+    "static/js/2.efd6e2e9.chunk.js": "/random-lottery-numbers-generator/static/js/2.efd6e2e9.chunk.js",
+    "static/js/2.efd6e2e9.chunk.js.map": "/random-lottery-numbers-generator/static/js/2.efd6e2e9.chunk.js.map",
+    "index.html": "/random-lottery-numbers-generator/index.html",
+    "static/css/main.f16f52c8.chunk.css.map": "/random-lottery-numbers-generator/static/css/main.f16f52c8.chunk.css.map",
+    "static/js/2.efd6e2e9.chunk.js.LICENSE.txt": "/random-lottery-numbers-generator/static/js/2.efd6e2e9.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/random-lottery-numbers-generator/static/media/logo-lotto6aus49.8250c2e9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7acb1bc0.js",
+    "static/js/2.efd6e2e9.chunk.js",
+    "static/css/main.f16f52c8.chunk.css",
+    "static/js/main.f83d05c0.chunk.js"
+  ]
+}
