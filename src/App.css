@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -15,12 +17,49 @@ p{
   justify-content: center;
   align-items: center;
   position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+.App::before{
+  content: "";
+  position: absolute;
+  left: 0%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: .6;
+  background: url('./Images/background.jpg') no-repeat;
+  background-size: cover;
 }
 .title{
   position: absolute;
-  top: 20%;
-
+  top: 15%;
+  left: 0;
+  width: 90%;
+  text-align: right;
+  padding: 20px 10px 5px 0;
+  background-color: rgba(0, 255, 255, 0.3);
+  color: rgb(11, 32, 56);
+  border-right: 2px solid rgba(0, 0, 0, 0.4);
+  border-top: 2px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  border-radius: 0px 5px 5px 0px;
 }
+.title-2{
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 80%;
+  text-align: right;
+  padding: 20px 10px 5px 0;
+  background-color: rgba(0, 255, 255, 0.3);
+  color: rgb(11, 32, 56);
+  border-right: 2px solid rgba(0, 0, 0, 0.4);
+  border-top: 2px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  border-radius: 0px 5px 5px 0px;
+}
+
 .LuckyNumbers{
   width: 100vw;
   height: 100vh;
@@ -32,18 +71,22 @@ p{
 
 .sixnumbers,.euronumbers{
   width: 30%;
+  padding: 30px;
   /* height: 50%; */
   /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  border: 4mm ridge rgba(95, 158, 160, 0.8);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .sixnumbers div:nth-child(7){
-  background-color: cadetblue;
+  background-color: rgba(95, 158, 160, 0.8);
 }
 .euronumbers div:nth-child(7),
 .euronumbers div:nth-child(6){
-  background-color: cadetblue;
+  background-color: rgba(95, 158, 160, 0.8);
 }
 .number{
   display: flex;
@@ -53,9 +96,10 @@ p{
   height: 50px;
   border: 2px solid cadetblue;
   border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .buttons{
-  width: 20%;
+  width: 30%;
   display: flex;
   justify-content: space-between;
   height: 40px;
@@ -63,14 +107,19 @@ p{
 
 .buttons button:nth-child(1){
   color: cadetblue;
-  width: 30%;
+  width: 29%;
   border: 2px solid cadetblue;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: medium;
+  font-weight: 700;
 }
 .buttons button:nth-child(2){
-  background-color: cadetblue;
+  background-color: rgba(95, 158, 160, 0.8);
   color: white;
   width: 69%;
   border: 2px solid cadetblue;
+  font-size: medium;
+  font-weight: 700;
 }
 button:active{
   outline: 2px solid lightseagreen;
@@ -83,10 +132,11 @@ button:active{
 }
 .start button:nth-child(1){
   background: url('./Images/logo-lotto6aus49.svg') no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-origin: content-box;
   padding: 10px;
+  background-color: rgba(0, 255, 255, 0.6);
 }
 .start button:nth-child(2){
   background: url('./Images/logo-eurojackpot.svg') no-repeat;
@@ -95,4 +145,9 @@ button:active{
   background-origin: content-box;
   padding: 10px;
   background-position: center;
+  background-color: rgba(0, 255, 255, 0.6);
+}
+
+button{
+  cursor: pointer;
 }

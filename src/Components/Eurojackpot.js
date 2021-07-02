@@ -36,13 +36,12 @@ function Eurojackpot() {
   }
   return (
     <div className="LuckyNumbers">
-      <h1>Eurojackpot</h1>
-      <p>Generating lucky numbers</p>
+      <h1 className="title-2">Eurojackpot</h1>
       {showNumbers ? <EuroNumbers reload={reload}/> : ""}      
       
       <div className="buttons">
         <button onClick={()=>window.location.reload()}>Reset</button>
-        <button onClick={handleClick}>Show me lucky numbers</button>
+        <button onClick={handleClick}>Show me the lucky numbers</button>
       </div>
     </div>
   )
